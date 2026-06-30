@@ -1,5 +1,4 @@
 # Proyecto-Tienda-EAN
-<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -10,9 +9,9 @@
   <header>
     <h1>🛍️ Tienda EAN</h1>
     <nav>
-      <a href="#productos">Productos</a>
-      <a href="#nosotros">Nosotros</a>
-      <a href="#contacto">Contacto</a>
+      <a href="#Inventario">Inventario</a>
+      <a href="#Ventas">Ventas</a>
+      <a href="#Informe">Informe</a>
     </nav>
   </header>
 
