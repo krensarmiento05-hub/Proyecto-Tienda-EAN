@@ -40,8 +40,7 @@
       // Oculta todas las secciones
       document.querySelectorAll('.seccion').forEach(s => s.style.display = 'none');
       // Muestra solo la seleccionada
-      document.getElementById(seccion).style.display = 'block';
-    }
+      document.getElementById(seccion).style.display = 'block';}
   </script>
 </body>
 </html>
