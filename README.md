@@ -21,8 +21,8 @@
     <button>Explorar catálogo</button>
   </section>
 
-  <section id="productos">
-    <h2>Productos destacados</h2>
+  <section id="Inventario">
+    <h2>Unidades más vendidas</h2>
     <div class="card">
       <img src="https://via.placeholder.com/200" alt="Producto 1">
       <h3>Camiseta EAN</h3>
