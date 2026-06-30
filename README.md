@@ -1,4 +1,4 @@
-# Proyecto-Tienda-EAN
+<!DOCTYPE html>
 <html lang="es">
 <head>
   <meta charset="UTF-8">
@@ -8,42 +8,40 @@
 <body>
   <header>
     <h1>🛍️ Tienda EAN</h1>
-    <nav>
-      <a href="#Inventario">Inventario</a>
-      <a href="#Ventas">Ventas</a>
-      <a href="#Informe">Informe</a>
-    </nav>
+    <p>Selecciona la sección que quieres compartir:</p>
+    <div class="botones">
+      <button onclick="mostrar('Inventario')">Inventario</button>
+      <button onclick="mostrar('Ventas')">Ventas</button>
+      <button onclick="mostrar('Informe')">Informe</button>
+    </div>
   </header>
 
-  <section id="hero">
-    <h2>Bienvenidos a la Tienda EAN</h2>
-    <p>Encuentra los mejores artículos institucionales y promocionales.</p>
-    <button>Explorar catálogo</button>
+  <section id="Inventario" class="seccion">
+    <h2>Inventario</h2>
+    <p>Aquí puedes mostrar las unidades más vendidas.</p>
   </section>
 
-  <section id="Inventario">
-    <h2>Unidades más vendidas</h2>
-    <div class="card">
-      <img src="https://via.placeholder.com/200" alt="Producto 1">
-      <h3>Camiseta EAN</h3>
-      <p>Diseño oficial, cómoda y moderna.</p>
-      <button>Comprar</button>
-    </div>
-    <div class="card">
-      <img src="https://via.placeholder.com/200" alt="Producto 2">
-      <h3>Agenda EAN</h3>
-      <p>Perfecta para tus clases y proyectos.</p>
-      <button>Comprar</button>
-    </div>
+  <section id="Ventas" class="seccion">
+    <h2>Ventas</h2>
+    <p>Resumen de las referencias más vendidas.</p>
   </section>
 
-  <section id="Ventas">
-    <h2>Referencia más vendida</h2>
-    <p>La Tienda EAN apoya campañas institucionales y ofrece merchandising creativo para estudiantes y colaboradores.</p>
+  <section id="Informe" class="seccion">
+    <h2>Informe</h2>
+    <p>Datos y reportes de la Tienda EAN.</p>
   </section>
 
-  <footer id="contacto">
+  <footer>
     <p>📧 tiendaean@universidadean.edu.co | 📍 Bogotá, Colombia</p>
   </footer>
+
+  <script>
+    function mostrar(seccion) {
+      // Oculta todas las secciones
+      document.querySelectorAll('.seccion').forEach(s => s.style.display = 'none');
+      // Muestra solo la seleccionada
+      document.getElementById(seccion).style.display = 'block';
+    }
+  </script>
 </body>
 </html>
