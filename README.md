@@ -3,7 +3,7 @@
 <head>
   <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
-  <title>Proyecto Tienda EAN</title>
+  <title>Tienda EAN</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
