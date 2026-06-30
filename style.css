@@ -1,14 +1,12 @@
 body {
   background-color: #808000; /* Fondo verde oliva */
-  color: #fff; /* Texto blanco */
-}
+  color: #fff; /* Texto blanco */}
 
 header {
   background-color: #FFD700; /* Amarillo oro */
   color: #000; /* Texto negro */
   padding: 20px;
-  text-align: center;
-}
+  text-align: center;}
 
 button {
   background-color: #FFD700; /* Botones amarillos */
@@ -18,9 +16,7 @@ button {
   margin: 5px;
   cursor: pointer;
   border-radius: 5px;
-  font-weight: bold;
-}
+  font-weight: bold;}
 
 button:hover {
-  background-color: #FFBF00; /* Amarillo ámbar al pasar el mouse */
-}
+  background-color: #FFBF00; /* Amarillo ámbar al pasar el mouse */}
