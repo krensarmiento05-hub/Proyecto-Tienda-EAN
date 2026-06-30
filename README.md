@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <link rel="stylesheet" href="style.css">
   <meta charset="UTF-8">
   <title>Proyecto Tienda EAN</title>
   <link rel="stylesheet" href="style.css">
