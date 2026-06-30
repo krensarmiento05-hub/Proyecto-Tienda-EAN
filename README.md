@@ -37,13 +37,13 @@
     </div>
   </section>
 
-  <section id="nosotros">
-    <h2>Sobre nosotros</h2>
+  <section id="Ventas">
+    <h2>Referencia más vendida</h2>
     <p>La Tienda EAN apoya campañas institucionales y ofrece merchandising creativo para estudiantes y colaboradores.</p>
   </section>
 
   <footer id="contacto">
-    <p>📧 contacto@tiendaean.com | 📍 Bogotá, Colombia</p>
+    <p>📧 tiendaean@universidadean.edu.co | 📍 Bogotá, Colombia</p>
   </footer>
 </body>
 </html>
