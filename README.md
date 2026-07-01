@@ -30,7 +30,7 @@
   </footer>
 </body>
 <section id="Inventario" class="seccion">
-  <h2>📊 Dashboard de Inventario</h2>
+  <h2>📊 Inventario</h2>
   <table id="tablaInventario">
     <thead>
       <tr>
@@ -46,11 +46,11 @@
     </tbody>
   </table>
 </section>
-const material = columnas[0].trim();
-const nombre = columnas[3].trim();
-const inventarioFisico = columnas[11].trim();
-const inventarioSAP = columnas[12].trim();
-const diferencia = columnas[13].trim();
+const material = columnas[1].trim();
+const nombre = columnas[2].trim();
+const inventarioFisico = columnas[3].trim();
+const inventarioSAP = columnas[4].trim();
+const diferencia = columnas[5].trim();
 
 <script src="inventario.js"></script>
 </html>
