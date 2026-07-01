@@ -1,22 +1,53 @@
+/* Fondo general */
 body {
-  background-color: #90EE90; /* Fondo verde claro */
-  color: #fff; /* Texto blanco */}
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  background-color: #f9f9f9; /* gris claro para contraste */
+  color: #333;
+}
 
+/* Encabezado */
 header {
+  background-color: #90EE90; /* Verde claro */
+  color: #000;
+  text-align: center;
+  padding: 40px 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+/* Grid de secciones */
+.grid {
+  display: flex;
+  justify-content: space-around;
+  padding: 40px;
+}
+
+.card {
+  flex: 1;
+  margin: 10px;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Colores de las tarjetas */
+.verde {
+  background-color: #77DD77; /* Verde pastel */
+  color: #000;
+}
+
+.amarillo {
   background-color: #FFD700; /* Amarillo oro */
-  color: #000; /* Texto negro */
+  color: #000;
+}
+
+/* Pie de página */
+footer {
+  background-color: #228B22; /* Verde bosque */
+  color: #fff;
+  text-align: center;
   padding: 20px;
-  text-align: center;}
-
-button {
-  background-color: #FFD700; /* Botones amarillos */
-  color: #808000; /* Texto verde */
-  border: none;
-  padding: 10px 20px;
-  margin: 5px;
-  cursor: pointer;
-  border-radius: 5px;
-  font-weight: bold;}
-
-button:hover {
-  background-color: #FFBF00; /* Amarillo ámbar al pasar el mouse */}
+}
