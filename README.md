@@ -10,20 +10,22 @@
   </header>
 
   <section class="grid">
-    <div class="card verde">
-      <h2>Inventario</h2>
-      <button onclick="location.href='inventario.html'">Inventario</button>
-      <p>Unidades proximas a recompra</p>
-    </div>
-    <div class="card amarillo">
-      <h2>Ventas</h2>
-      <p>Referencia más vendida</p>
-    </div>
-    <div class="card verde">
-      <h2>Informe</h2>
-      <p>Datos y reportes</p>
-    </div>
-  </section>
+  <div class="card verde">
+    <h2>Inventario</h2>
+    <p>Unidades más vendidas</p>
+    <button onclick="location.href='inventario.html'">Ver Inventario</button>
+  </div>
+
+  <div class="card amarillo">
+    <h2>Ventas</h2>
+    <p>Referencia más vendida</p>
+  </div>
+
+  <div class="card verde">
+    <h2>Informe</h2>
+    <p>Datos y reportes</p>
+  </div>
+</section>
 
   <footer>
     <p>📧 tiendaean@universidadean.edu.co | 📍 Bogotá, Colombia</p>
