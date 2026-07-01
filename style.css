@@ -1,22 +1,17 @@
-/* Fondo general */
 body {
-  font-family: 'Arial', sans-serif;
+  font-family: Arial, sans-serif;
   margin: 0;
-  background-color: #f9f9f9; /* gris claro para contraste */
+  background-color: #f9f9f9;
   color: #333;
 }
 
-/* Encabezado */
 header {
   background-color: #90EE90; /* Verde claro */
   color: #000;
   text-align: center;
-  padding: 40px 20px;
-  font-weight: bold;
-  letter-spacing: 2px;
+  padding: 20px;
 }
 
-/* Grid de secciones */
 .grid {
   display: flex;
   justify-content: space-around;
@@ -26,37 +21,40 @@ header {
 .card {
   flex: 1;
   margin: 10px;
-  padding: 30px;
+  padding: 20px;
   text-align: center;
   border-radius: 10px;
-  font-size: 18px;
-  font-weight: bold;
 }
 
-/* Colores de las tarjetas */
 .verde {
   background-color: #77DD77; /* Verde pastel */
-  color: #000;
 }
 
 .amarillo {
   background-color: #FFD700; /* Amarillo oro */
-  color: #000;
 }
 
-/* Pie de página */
-footer {
-  background-color: #228B22; /* Verde bosque */
-  color: #fff;
-  text-align: center;
-  padding: 20px;
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #FFD700;
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
 }
+
+button:hover {
+  background-color: #FFBF00;
+  color: #fff;
+}
+
 table {
   width: 90%;
   margin: 20px auto;
   border-collapse: collapse;
   background-color: #fff;
-  color: #000;
 }
 
 th, td {
@@ -66,9 +64,16 @@ th, td {
 }
 
 th {
-  background-color: #FFD700; /* Amarillo oro */
+  background-color: #FFD700;
 }
 
 tr:nth-child(even) {
-  background-color: #90EE90; /* Verde claro */
+  background-color: #90EE90;
+}
+
+footer {
+  background-color: #228B22;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
 }
