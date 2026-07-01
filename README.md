@@ -45,6 +45,11 @@
     </tbody>
   </table>
 </section>
+const material = columnas[0].trim();
+const nombre = columnas[3].trim();
+const inventarioFisico = columnas[11].trim();
+const inventarioSAP = columnas[12].trim();
+const diferencia = columnas[13].trim();
 
 <script src="inventario.js"></script>
 </html>
