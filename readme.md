@@ -7,7 +7,7 @@
 </head>
 <body>
   <header>
-    <h1>LUXURY _ TIENDA EAN</h1>
+    <h1>TIENDA EAN</h1>
     <p>Primera colección institucional</p>
   </header>
 
