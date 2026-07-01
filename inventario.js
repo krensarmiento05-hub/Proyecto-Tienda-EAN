@@ -14,7 +14,6 @@ fetch('INVENTARIO TIENDA 2026.csv')
         const nombre = columnas[3];
         const inventarioFisico = columnas[11] || "0";
         const inventarioSAP = columnas[12] || "0";
-        const diferencia = columnas[13] || "0";
 
         // Solo mostrar filas con nombre de producto
         if (nombre) {
@@ -24,7 +23,7 @@ fetch('INVENTARIO TIENDA 2026.csv')
               <td>${nombre}</td>
               <td>${inventarioFisico}</td>
               <td>${inventarioSAP}</td>
-              <td>${diferencia}</td>
+    
             </tr>
           `;
           tabla.innerHTML += filaHTML;
