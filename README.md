@@ -28,4 +28,23 @@
     <p>📧 tiendaean@universidadean.edu.co | 📍 Bogotá, Colombia</p>
   </footer>
 </body>
+<section id="Inventario" class="seccion">
+  <h2>📊 Dashboard de Inventario</h2>
+  <table id="tablaInventario">
+    <thead>
+      <tr>
+        <th>Material</th>
+        <th>Nombre Producto</th>
+        <th>Inventario Físico</th>
+        <th>Inventario SAP</th>
+        <th>Diferencia</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Aquí se llenarán los datos automáticamente -->
+    </tbody>
+  </table>
+</section>
+
+<script src="inventario.js"></script>
 </html>
