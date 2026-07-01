@@ -31,3 +31,12 @@ fetch('TIENDA 2026 INVENTARIO.csv')
     });
   })
   .catch(error => console.error('Error al cargar CSV:', error));
+
+fetch('TIENDA 2026 INVENTARIO.csv')
+  .then(response => response.text())
+  .then(data => {
+    // Mostrar todo el contenido del CSV en pantalla
+    document.body.innerHTML += "<pre>" + data + "</pre>";
+  })
+  .catch(error => console.error('Error al cargar CSV:', error));
+
