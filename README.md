@@ -12,6 +12,7 @@
   <section class="grid">
     <div class="card verde">
       <h2>Inventario</h2>
+      <button onclick="location.href='inventario.html'">Inventario</button>
       <p>Unidades proximas a recompra</p>
     </div>
     <div class="card amarillo">
