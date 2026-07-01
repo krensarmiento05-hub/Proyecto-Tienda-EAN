@@ -51,3 +51,24 @@ footer {
   text-align: center;
   padding: 20px;
 }
+table {
+  width: 90%;
+  margin: 20px auto;
+  border-collapse: collapse;
+  background-color: #fff;
+  color: #000;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 8px;
+  text-align: center;
+}
+
+th {
+  background-color: #FFD700; /* Amarillo oro */
+}
+
+tr:nth-child(even) {
+  background-color: #90EE90; /* Verde claro */
+}
