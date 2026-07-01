@@ -2,11 +2,11 @@
 fetch('INVENTARIO TIENDA 2026.csv')
   .then(response => response.text())
   .then(data => {
-    const filas = data.split('\n').slice(1); // Ignora la primera fila (encabezados)
+    const filas = data.split('\n').slice(1);
     const tabla = document.querySelector('#tablaInventario tbody');
 
     filas.forEach(linea => {
-      const columnas = linea.split(';'); // separa por punto y coma
+      const columnas = linea.split(';');
       if (columnas.length > 1) {
         const material = columnas[0];
         const nombre = columnas[3];
@@ -26,5 +26,5 @@ fetch('INVENTARIO TIENDA 2026.csv')
         tabla.innerHTML += filaHTML;
       }
     });
-  })
-  .catch(error => console.error('Error al cargar CSV:', error));
+  });
+
