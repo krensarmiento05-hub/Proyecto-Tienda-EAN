@@ -1,7 +1,7 @@
 fetch('TIENDA 2026 INVENTARIO.csv')
   .then(response => response.text())
   .then(data => {
-    const filas = data.split('\n').slice(1); // Ignora encabezados
+    const filas = data.split('\n').slice(1); // Ignora la primera fila (encabezados)
     const tabla = document.querySelector('#tablaInventario tbody');
 
     filas.forEach(linea => {
@@ -11,11 +11,11 @@ fetch('TIENDA 2026 INVENTARIO.csv')
       if (columnas.length >= 5) {
         const material = columnas[0];
         const nombre = columnas[1];
-        const inventarioFisico = parseInt(columnas[2] || "0");
-        const inventarioSAP = parseInt(columnas[3] || "0");
-        const diferencia = parseInt(columnas[4] || "0");
+        const inventarioFisico = columnas[2];
+        const inventarioSAP = columnas[3];
+        const diferencia = columnas[4];
 
-        if (nombre) {
+        if (material && nombre) {
           const filaHTML = `
             <tr>
               <td>${material}</td>
