@@ -7,8 +7,8 @@ fetch('TIENDA 2026 INVENTARIO.csv')
     filas.forEach(linea => {
       const columnas = linea.split(';').map(c => c.trim());
       if (columnas.length >= 14) {
-        const material = columnas[0];
-        const nombre = columnas[3];
+        const material = columnas[1];
+        const nombre = columnas[2];
         const inventarioFisico = columnas[3];
         const inventarioSAP = columnas[4];
         const diferencia = columnas[5];
