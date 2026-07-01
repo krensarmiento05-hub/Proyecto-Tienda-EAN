@@ -11,7 +11,7 @@
 
   <section class="grid">
   <div class="card verde">
-    <button onclick="location.href='inventario.html'">Ver Inventario</button>
+  <button onclick="location.href='inventario.html'">Inventario</button>
   </div>
 
   <div class="card amarillo">
