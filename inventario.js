@@ -9,7 +9,7 @@ fetch('INVENTARIO TIENDA 2026.csv')
       const columnas = linea.split(';');
 
       // Validar que la fila tenga suficientes columnas
-      if (columnas.length > 13) {
+      if (columnas.length > 14) {
         const material = (columnas[0] || "").trim();
         const nombre = (columnas[3] || "").trim();
         const inventarioFisico = (columnas[11] || "0").trim();
@@ -33,4 +33,3 @@ fetch('INVENTARIO TIENDA 2026.csv')
     });
   })
   .catch(error => console.error('Error al cargar CSV:', error));
-
