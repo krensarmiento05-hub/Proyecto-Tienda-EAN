@@ -1,11 +1,11 @@
 <head>
   <meta charset="UTF-8">
-  <title>Proyecto Tienda EAN</title>
+  <title>Tienda EAN</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header>
-    <h1>LUXURY _ TIENDA EAN</h1>
+    <h1>TIENDA EAN</h1>
     <p>Primera colección institucional</p>
   </header>
 
