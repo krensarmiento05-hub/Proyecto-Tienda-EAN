@@ -7,12 +7,12 @@ fetch('INVENTARIO TIENDA 2026.csv')
 
     filas.forEach(linea => {
       const columnas = linea.split(';');
-      if (columnas.length > 1) {
-        const material = columnas[0];
-        const nombre = columnas[3];
-        const inventarioFisico = columnas[11];
-        const inventarioSAP = columnas[12];
-        const diferencia = columnas[13];
+      if (columnas.length > 13) {
+        const material = columnas[0].trim();
+        const nombre = columnas[3].trim();
+        const inventarioFisico = columnas[11].trim();
+        const inventarioSAP = columnas[12].trim();
+        const diferencia = columnas[13].trim();
 
         const filaHTML = `
           <tr>
@@ -26,5 +26,5 @@ fetch('INVENTARIO TIENDA 2026.csv')
         tabla.innerHTML += filaHTML;
       }
     });
-  });
-
+  })
+  .catch(error => console.error('Error al cargar CSV:', error));
