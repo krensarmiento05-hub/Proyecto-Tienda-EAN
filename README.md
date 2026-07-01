@@ -11,8 +11,6 @@
 
   <section class="grid">
   <div class="card verde">
-    <h2>Inventario</h2>
-    <p>Unidades más vendidas</p>
     <button onclick="location.href='inventario.html'">Ver Inventario</button>
   </div>
 
