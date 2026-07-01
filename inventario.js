@@ -8,12 +8,12 @@ fetch('TIENDA 2026 INVENTARIO.csv')
       const columnas = linea.split(';').map(c => c.trim());
 
       // Validar que existan las columnas necesarias
-      if (columnas.length >= 13) {
+      if (columnas.length >= 5) {
         const material = columnas[0];
-        const nombre = columnas[3];
-        const inventarioFisico = parseInt(columnas[11] || "0");
-        const inventarioSAP = parseInt(columnas[12] || "0");
-        const diferencia = inventarioSAP - inventarioFisico;
+        const nombre = columnas[1];
+        const inventarioFisico = parseInt(columnas[2] || "0");
+        const inventarioSAP = parseInt(columnas[3] || "0");
+        const diferencia = parseInt(columnas[4] || "0");
 
         if (nombre) {
           const filaHTML = `
@@ -31,9 +31,3 @@ fetch('TIENDA 2026 INVENTARIO.csv')
     });
   })
   .catch(error => console.error('Error al cargar CSV:', error));
-
-fetch('TIENDA 2026 INVENTARIO.csv')
-  .then(response => response.text())
-  .then(data => {
-    document.body.innerHTML += "<pre>" + data + "</pre>";
-  });
